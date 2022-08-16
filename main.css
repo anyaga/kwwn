@@ -1,9 +1,16 @@
-body {
+body, html {
     background-color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma;
   }
 
-  ul {
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("kwwn-img/6.jpg");
+    min-height: 50%;
+  }
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
